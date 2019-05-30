@@ -42,43 +42,43 @@ void draw (rangeValue){
 
     case 2:
     disp.clear();
-    disp.displayByte(_empty, _empty, _empty, _1);
+    disp.displayByte(_empty, _empty, _empty, _2);
     digitalWrite(pinLED, 0);
     break;
 
     case 3:
     disp.clear();
-    disp.displayByte(_empty, _empty, _empty, _1);
+    disp.displayByte(_empty, _empty, _empty, _3);
     digitalWrite(pinLED, 0);
     break;
 
     case 4:
     disp.clear();
-    disp.displayByte(_empty, _empty, _empty, _1);
+    disp.displayByte(_empty, _empty, _empty, _4);
     digitalWrite(pinLED, 0);
     break;
 
     case 5:
     disp.clear();
-    disp.displayByte(_empty, _empty, _empty, _1);
+    disp.displayByte(_empty, _empty, _empty, _5);
     digitalWrite(pinLED, 0);
     break;
 
     case 6:
     disp.clear();
-    disp.displayByte(_empty, _empty, _empty, _1);
-    digitalWrite(pinLED, 1);
+    disp.displayByte(_empty, _empty, _empty, _6);
+    digitalWrite(pinLED, 0);
     break;
 
     case 7:
     disp.clear();
-    disp.displayByte(_empty, _empty, _empty, _1);
+    disp.displayByte(_empty, _empty, _empty, _7);
     digitalWrite(pinLED, 1);
     break;
 
     case 8:
     disp.clear();
-    disp.displayByte(_empty, _empty, _empty, _1);
+    disp.displayByte(_empty, _empty, _empty, _8);
     digitalWrite(pinLED, 1);
     break;    
   }
